@@ -1,0 +1,1697 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AccessMonitor - WCAG 2.0's list of tests</title>
+  <style>
+
+#tests {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tests td, #tests th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tests tr:nth-child(even){background-color: #f2f2f2;}
+
+#tests tr:hover {background-color: #ddd;}
+
+#tests th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+</style>
+</head>
+<body>
+  <div>
+    <h1>AccessMonitor - WCAG 2.0's list of tests</h1>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <dl>
+              <dt><A href="http://www.acessibilidade.gov.pt/accessmonitor/tests/all.php?wcag=1&amp;lang=pt">WCAG 1.0</A></dt>
+              <dd>
+                <ul>
+                  <li>Total: <strong>75</strong></li>
+                  <li>Standard: <strong>13</strong>
+                    <ul>
+                      <li>a: <strong>0</strong></li>
+                      <li>aa: <strong>7</strong></li>
+                      <li>aaa: <strong>6</strong></li>
+                    </ul>
+                  </li>
+                  <li>Strict: <strong>62</strong>
+                    <ul>
+                      <li>A: <strong>14</strong></li>
+                      <li>AA: <strong>39</strong></li>
+                      <li>AAA: <strong>9</strong></li>
+                    </ul>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+          </td>
+          <td>
+            <dl>
+              <dt>WCAG 2.0</dt>
+              <dd>
+                <ul>
+                  <li>Total: <strong>99</strong></li>
+                  <li>Standard: <strong>36</strong>    
+                    <ul>
+                      <li>a: <strong>27</strong></li>
+                      <li>aa: <strong>5</strong></li>
+                      <li>aaa: <strong>4</strong></li>
+                    </ul>
+                  </li>
+                  <li>Strict: <strong>63</strong>
+                    <ul>
+                      <li>A: <strong>52</strong></li>
+                      <li>AA: <strong>5</strong></li>
+                      <li>AAA: <strong>6</strong></li>
+                    </ul>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>The rows marked with (*) identify the tests for both WCAG's versions</p>
+    <table id="tests" style="width:100%">
+      <caption>WCAG 2.0's tests list</caption>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>ID</th>
+          <th style="width:80%">Test</th>
+          <th>WCAG</th>
+          <th>Level</th>
+          <th>Score</th>
+          <th>Weight</th>
+          <th>Trust</th>
+          <th>Top</th>
+          <th>Steps</th>
+          <th><abbr title="Success Criterium">SC</abbr>/<abbr title="Curriculum for WCAG 1.0">Curric</abbr></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+    <TD>1</TD>
+    <TD>a_01a</TD>
+    <TD class="left">It was found that the first link of the page take us to the main content area 
+	Constatou-se que o primeiro link da página nos conduz até à área do conteúdo 
+    principal</TD>
+    <TD><A title="Adding a link at the top of each page that goes directly to the main content area" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G1.html">G1</A></TD>
+    <TD>_a</TD>
+    <TD>10</TD>
+    <TD>0.8</TD>
+    <TD>0.7</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html">2.4.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>2</TD>
+    <TD>a_01b</TD>
+    <TD class="left">It was found that the first link of the page does not take us to the main content area 
+	Constatou-se que o primeiro link da página não nos conduz até à área do conteúdo principal</TD>
+    <TD><A title="Adding a link at the top of each page that goes directly to the main content area"  
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G1.html">G1</A></TD>
+    <TD>A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html">2.4.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>3*</TD>
+    <TD>a_02a</TD>
+    <TD class="left">It was found that do not exist links to bypassing text blocks 
+	Constatou-se que não existem links para contornar blocos de texto</TD>
+    <TD><A title="Adding a link at the beginning of a block of repeated content to go to the end of the block"
+	      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G123.html">G123</A></TD>
+    <TD title="WCAG 1.0: aaa">A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD>10</TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html">2.4.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>4*</TD>
+    <TD>a_02b</TD>
+    <TD class="left">There were found N links to bypass text blocks 
+	Foram encontrados N links para contornar blocos de    
+      conteúdo</TD>
+    <TD><A title="Adding a link at the beginning of a block of repeated content to go to the end of the block" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G123.html">G123</A></TD>
+    <TD title="WCAG 1.0: aaa">_a</TD>
+    <TD>10</TD>
+    <TD>0.8</TD>
+    <TD>0.7</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html">2.4.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>5*</TD>
+    <TD>a_03</TD>
+    <TD class="left">There were found N links in which content is only composed by an image without alt text 
+	Foram encontrados N links em que o conteúdo é composto    
+         apenas por uma imagem não legendada</TD>
+    <TD><A title="Failure of Success Criteria 2.4.4, 2.4.9 and 4.1.2 due to not providing an accessible name for an image which is the only content in a link" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F89.html">F89</A></TD>
+    <TD title="WCAG 1.0: AA">A</TD>
+    <TD>3</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html">2.4.4</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html">2.4.9</A>&nbsp;(AAA) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>6</TD>
+    <TD>a_04</TD>
+    <TD class="left">It was found that the page does not have links
+	Constatou-se que a página não tem links</TD>
+    <TD><A title="Providing links to navigate to related Web pages" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G125.html">G125</A></TD>
+    <TD>AA</TD>
+    <TD>3</TD>
+    <TD>0.5</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html">2.4.5</A>&nbsp;(AA) 
+           </TD></TR>
+  <TR>
+    <TD>7</TD>
+    <TD>a_05</TD>
+    <TD class="left">There were found N cases in which the attribute <CODE>title</CODE> of the element link just repeats the existing text in the link
+	Foram identificados N casos em que o atributo        
+      <CODE>title</CODE> do elemento link se limita a repetir o texto existente  
+           no link</TD>
+    <TD><A title="Supplementing link text with the title attribute" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H33.html">H33</A></TD>
+    <TD>_a</TD>
+    <TD>5</TD>
+    <TD>0.8</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html">2.4.4</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html">2.4.9</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR>
+    <TD>8</TD>
+    <TD>a_06</TD>
+    <TD class="left">There were found N cases in which there are adjacent links with the same value inserted in the attribute <CODE>href</CODE>
+	Foram encontrados N casos em que existem links adjacentes 
+            com o mesmo valor colocado no atributo <CODE>href</CODE></TD>
+    <TD><A title="Combining adjacent image and text links for the same resource" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H2.html">H2</A></TD>
+    <TD>A</TD>
+    <TD>5</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html">2.4.4</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html">2.4.9</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>9*</TD>
+    <TD>a_07</TD>
+    <TD class="left">There were found N groups of links composed by 10 or more links not grouped by structural elements 
+	Foram encontrados N grupos de links compostos por 10 ou  
+          mais links não agrupados por elementos estruturais</TD>
+    <TD><A title="Using structural elements to group links" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H50.html">H50</A></TD>
+    <TD title="WCAG 1.0: aaa">_a</TD>
+    <TD>5</TD>
+    <TD>0.8</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html">2.4.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>10*</TD>
+    <TD>a_09</TD>
+    <TD class="left">There were located N links with the same text that point different targets 
+	Foram localizados N links com o mesmo texto que apontam   
+          destinos diferentes</TD>
+    <TD><A title="Failure of Success Criterion 2.4.9 due to using a non-specific link such as "click here" or "more" without a mechanism to change the link text to specific text." 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F84.html" 
+      clique="" aqui"="" ou="" "mais"="" sem="" um="" mecanismo="" alterar="" o="" 
+      do="" link="" para="" texto="" específico"="">F84</A></TD>
+    <TD title="WCAG 1.0: AA">AAA</TD>
+    <TD>4</TD>
+    <TD>0.1</TD>
+    <TD>1</TD>
+    <TD>2</TD>
+    <TD>2</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html">2.4.9</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>11*</TD>
+    <TD>abbr_01</TD>
+    <TD class="left">There were located N abbreviations without definition 
+	Foram localizadas N abreviaturas sem definição</TD>
+    <TD><A title="Providing the expansion or explanation of an abbreviation" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G102.html">G102</A></TD>
+    <TD title="WCAG 1.0: aaa">AAA</TD>
+    <TD>3</TD>
+    <TD>0.1</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/meaning-located.html">3.1.4</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>12*</TD>
+    <TD>akey_01</TD>
+    <TD class="left">There were found N repeated values in the <CODE>accesskey</CODE> attributes 
+	Foram encontrados N valores repetidos nos atributos       
+       <CODE>accesskey</CODE></TD>
+    <TD><A title="Falha dos Critérios de Sucesso 1.3.1 e 4.1.1 devido a informações insuficientes no DOM para determinar relações um para um (por ex., entre etiquetas com o mesmo id) em HTML" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F17.html">F17</A></TD>
+    <TD title="WCAG 1.0: aaa">A</TD>
+    <TD>4</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html">4.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>13*</TD>
+    <TD>applet_01</TD>
+    <TD class="left">There were found N elements <CODE>applet</CODE> without alternative text 
+	Foram encontrados N elemntos <CODE>applet</CODE> sem      
+       texto alternativo</TD>
+    <TD><A title="Providing text alternatives on applet elements" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H35.html">H35</A></TD>
+    <TD title="WCAG 1.0: A">A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>14*</TD>
+    <TD>area_01a</TD>
+    <TD class="left">It was found that all <CODE>&lt;area&gt;</CODE> elements have alternative texts
+	Constatou-se que todos os elementos        
+      <CODE>&lt;area&gt;</CODE> têm textos alternativos</TD>
+    <TD><A title="Providing text alternatives for the area elements of image maps" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H24.html">H24</A></TD>
+    <TD title="WCAG 1.0: A">_a</TD>
+    <TD>10</TD>
+    <TD>0.8</TD>
+    <TD>0.9</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html">2.4.4</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html">2.4.9</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>15*</TD>
+    <TD>area_01b</TD>
+    <TD class="left">There were found N <CODE>&lt;area&gt;</CODE> elements without alternative text 
+	Foram encontrados N elementos <CODE>&lt;area&gt;</CODE>   
+          sem texto alternativo</TD>
+    <TD><A title="Failure of Success Criterion 1.1.1 due to omitting the alt attribute or text alternative on img elements, area elements, and input elements of type "image"" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F65.html" 
+      imagem""="">F65</A></TD>
+    <TD title="WCAG 1.0: A">A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>16*</TD>
+    <TD>blink_01</TD>
+    <TD class="left">There were found N <CODE>blink</CODE> elements in the page 
+	Foram encontrados N elementos <CODE>blink</CODE> na     
+      página</TD>
+    <TD><A title="Failure of Success Criterion 2.2.2 due to using the blink element" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F47.html">F47</A></TD>
+    <TD title="WCAG 1.0: aa">A</TD>
+    <TD>2</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/time-limits-pause.html">2.2.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>17*</TD>
+    <TD>blink_02</TD>
+    <TD class="left">There were located N <CODE>blink</CODE> values in the CSS
+	Foram localizados N valores <CODE>blink</CODE> nas CSS</TD>
+    <TD><A title="Failure of Success Criterion 2.2.2 due to using text-decoration:blink without a mechanism to stop it in less than five seconds" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F4.html">F4</A></TD>
+    <TD title="WCAG 1.0: aa">A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>0.9</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/time-limits-pause.html">2.2.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>18</TD>
+    <TD>br_01</TD>
+    <TD class="left">There were found N sequences of 3 or more <CODE>&lt;br&gt;</CODE> elements, which might being used
+	to represent the list items 
+	Foram encontradas N sequências de 3 ou mais elementos     
+         <CODE>&lt;br&gt;</CODE>, os quais poderão estar a ser usados para       
+      representar os itens de uma lista</TD>
+    <TD><A title="Using ol, ul and dl for lists or groups of links" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H48.html">H48</A></TD>
+    <TD>_a</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>0.7</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>19</TD>
+    <TD>color_01</TD>
+    <TD class="left">There were identified N rules of CSS where is not specified or the font colour or the background colour
+	Foram identificadas N regras de CSS em que não se       
+      especifica ou a cor de letra ou a cor de fundo</TD>
+    <TD><A title="Failure of Success Criterion 1.4.3, 1.4.6 and 1.4.8 due to specifying foreground colors without specifying background colors or vice versa" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F24.html">F24</A></TD>
+    <TD>_aa</TD>
+    <TD>5</TD>
+    <TD>0.4</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">1.4.3</A>&nbsp;(AA) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast7.html">1.4.6</A>&nbsp;(AAA) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html">1.4.8</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR>
+    <TD>20</TD>
+    <TD>color_02</TD>
+    <TD class="left">There were located N colour combinations which contrast relation is lower than 3:1
+	Foram localizadas N combinações de cor cuja relação de    
+         contraste é inferior a 3:1</TD>
+    <TD><A title="Ensuring that a contrast ratio of at least 3:1 exists between text (and images of text) and background behind the text" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G145.html">G145</A></TD>
+    <TD>_aa</TD>
+    <TD>4</TD>
+    <TD>0.4</TD>
+    <TD>0.8</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">1.4.3</A>&nbsp;(AA) 
+           </TD></TR>
+  <TR>
+    <TD>21</TD>
+    <TD>css_01</TD>
+    <TD class="left">There were identified N cases in which CSS is specified a spacing between lines less than 1.5
+	Foram identificados N casos em que nas CSS se especifica  
+           um espaçamento entre linhas menor a 1.5</TD>
+    <TD><A title="Specifying line spacing in CSS" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/C21.html">C21</A></TD>
+    <TD>_aaa</TD>
+    <TD>3</TD>
+    <TD>0.1</TD>
+    <TD>0.8</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html">1.4.8</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>22*</TD>
+    <TD>css_validator_01</TD>
+    <TD class="left">It was found that do not exist validation errors in the CSS code
+	Constatou-se que não existem erros de validação no código 
+            das CSS</TD>
+    <TD><A title="Validating Web pages" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G134.html">G134</A></TD>
+    <TD title="WCAG 1.0: AA">_a</TD>
+    <TD>10</TD>
+    <TD>0.8</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html">4.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>23*</TD>
+    <TD>css_validator_02</TD>
+    <TD class="left">There were found N syntax grammatical errors in the CSS
+	Foram detectados N erros de sintaxe gramatical nas CSS</TD>
+    <TD><A title="Validating Web pages" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G134.html">G134</A></TD>
+    <TD title="WCAG 1.0: AA">_a</TD>
+    <TD>5</TD>
+    <TD>0.8</TD>
+    <TD>0.9</TD>
+    <TD>3</TD>
+    <TD>3</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html">4.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>24*</TD>
+    <TD>dtd_01</TD>
+    <TD class="left">It was found that does not exist the <EM lang="en" 
+      lang="en" xml:lang="en">Document Type Definition</EM>
+	Constatou-se que não existe a declaração do <EM lang="en" 
+      lang="en" xml:lang="en">Document Type Definition</EM></TD>
+    <TD><A title="Using HTML according to spec" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H88.html">H88</A></TD>
+    <TD title="WCAG 1.0: AA">_a</TD>
+    <TD>3</TD>
+    <TD>0.8</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html">4.1.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>25*</TD>
+    <TD>ehandler_01</TD>
+    <TD class="left">There were found N cases in which is used manipulators of events that depend on mouse
+	Foram encontrados N casos em que se faz uso de       
+      manipuladores de eventos rato-dependentes</TD>
+    <TD><A title="Failure of Success Criterion 2.1.1 due to using only pointing-device-specific event handlers (including gesture) for a function" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F54.html">F54</A></TD>
+    <TD title="WCAG 1.0: AA">A</TD>
+    <TD>1</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html">2.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>26*</TD>
+    <TD>ehandler_02</TD>
+    <TD class="left">There were identified N cases in which is not used redundant event manipulators 
+	Foram identificados N casos em que não se faz uso de      
+       manipuladores de eventos redundantes</TD>
+    <TD><A title="Using both keyboard and other device-specific functions" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/SCR20.html">SCR20</A></TD>
+    <TD title="WCAG 1.0: AA">A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html">2.1.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/keyboard-operation-all-funcs.html">2.1.3</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>27*</TD>
+    <TD>ehandler_03</TD>
+    <TD class="left">There were identified N cases in which are made available redundant event manipulators 
+	Foram identificados N casos em que se disponibilizam      
+       manipuladores de eventos redundantes</TD>
+    <TD><A title="Providing keyboard-triggered event handlers" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G90.html">G90</A></TD>
+    <TD title="WCAG 1.0: AA">_a</TD>
+    <TD>10</TD>
+    <TD>0.8</TD>
+    <TD>0.9</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html">2.1.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/keyboard-operation-all-funcs.html">2.1.3</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR>
+    <TD>28</TD>
+    <TD>ehandler_04</TD>
+    <TD class="left">There were identified N cases in which are associated events with non-interactive elements 
+	Foram  identificados N casos em que se associam eventos a 
+            elementos não interactivos</TD>
+    <TD><A title="Failure of Success Criterion 4.1.2 due to using script to make div or span a user interface control in HTML without providing a role for the control" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F59.html">F59</A></TD>
+    <TD>A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>0.8</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>29*</TD>
+    <TD>embed_01</TD>
+    <TD class="left">There were found N <CODE>&lt;embed&gt;</CODE> elements without equivalent alternative content 
+	Foram encontrados N elementos <CODE>&lt;embed&gt;</CODE>  
+           sem conteúdo alternativo equivalente</TD>
+    <TD><A title="Using noembed with embed" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H46.html">H46</A></TD>
+    <TD title="WCAG 1.0: A">A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>0.9</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/media-equiv-text-doc.html">1.2.8</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR>
+    <TD>30</TD>
+    <TD>field_01</TD>
+    <TD class="left">There were found N <CODE>&lt;fieldset&gt;</CODE> elements without description 
+	Foram encontrados N elementos        
+      <CODE>&lt;fieldset&gt;</CODE> sem descrição</TD>
+    <TD><A title="Providing a description for groups of form controls using fieldset and legend elements" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H71.html">H71</A></TD>
+    <TD>A</TD>
+    <TD>4</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html">3.3.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>31</TD>
+    <TD>field_02</TD>
+    <TD class="left">There were found N <CODE>&lt;fieldset&gt;</CODE> elements out of the form
+	Foram encontrados N elementos        
+      <CODE>&lt;fieldset&gt;</CODE> fora do formulário</TD>
+    <TD><A title="Providing a description for groups of form controls using fieldset and legend elements" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H71.html">H71</A></TD>
+    <TD>A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html">3.3.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>32</TD>
+    <TD>focus_01</TD>
+    <TD class="left">There were found N cases in which scripts are used to remove the focus always when the focus is received
+	Foram encontrados N casos em que os scripts são       
+      utilizados para remover o foco sempre que o foco é recebido</TD>
+    <TD><A title="Failure of Success Criteria 2.1.1, 2.4.7, and 3.2.1 due to using script to remove focus when focus is received" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F55.html">F55</A></TD>
+    <TD>_a</TD>
+    <TD>3</TD>
+    <TD>0.8</TD>
+    <TD>0.8</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html">2.1.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html">2.4.7</A>&nbsp;(AA) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html">3.2.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>33</TD>
+    <TD>font_01</TD>
+    <TD class="left">There were located N elements or HTML attributes that are being used to control the text visual presentation
+	Foram localizados N elementos ou atributos de HTML que    
+         estão a ser usados para controlo da apresentação visual do texto</TD>
+    <TD><A title="Using CSS to control visual presentation of text" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/C22.html">C22</A></TD>
+    <TD>AA</TD>
+    <TD>4</TD>
+    <TD>0.6</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html">1.4.4</A>&nbsp;(AA) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html">1.4.5</A>&nbsp;(AA) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-images.html">1.4.9</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>34*</TD>
+    <TD>font_02</TD>
+    <TD class="left">There were identified N cases in which are being used units of measure expressed in absolute values in the font size 
+	Foram identificados N casos em que se usam unidades de    
+         medida expressas em valores absolutos no tamanho de letra</TD>
+    <TD><A title="Using percent for font sizes" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/C12.html">C12</A></TD>
+    <TD title="WCAG 1.0: AA">AA</TD>
+    <TD>4</TD>
+    <TD>0.6</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html">1.4.4</A>&nbsp;(AA) 
+           </TD></TR>
+  <TR>
+    <TD>35</TD>
+    <TD>form_01a</TD>
+    <TD class="left">It was found that all forms have a send button 
+	Constatou-se que todos os formulários têm um botão de     
+        envio</TD>
+    <TD><A title="Providing submit buttons" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H32.html">H32</A></TD>
+    <TD>_a</TD>
+    <TD>10</TD>
+    <TD>0.8</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html">3.2.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>36</TD>
+    <TD>form_01b</TD>
+    <TD class="left">There were identified N forms without send button 
+	Foram identificados N formulários sem botão de envio</TD>
+    <TD><A title="Providing submit buttons" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H32.html">H32</A></TD>
+    <TD>A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>0.9</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html">3.2.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>37*</TD>
+    <TD>frame_01</TD>
+    <TD class="left">There were identified N frames without the <CODE>title</CODE> attribute 
+	Foram identificados N frames sem o atributo        
+      <CODE>title</CODE></TD>
+    <TD><A title="Using the title attribute of the frame and iframe elements" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H64.html">H64</A></TD>
+    <TD title="WCAG 1.0: A">A</TD>
+    <TD>3</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html">2.4.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>38</TD>
+    <TD>frame_02</TD>
+    <TD class="left">It was found that the page Frameset has a wrong statement of <ACRONYM title="Declaração do Tipo de Documento">DTD</ACRONYM>
+	Constatou-se que a página Frameset tem uma declaração de  
+            <ACRONYM title="Declaração do Tipo de Documento">DTD</ACRONYM>     
+      incorrecta.</TD>
+    <TD><A title="Using HTML according to spec" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H88.html">H88</A></TD>
+    <TD>A</TD>
+    <TD>3</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html">4.1.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>39*</TD>
+    <TD>hx_01a</TD>
+    <TD class="left">It was found that do not exist headings marked in the page 
+	Constatou-se que não existem cabeçalhos marcados na     
+      página</TD>
+    <TD><A title="Using h1-h6 to identify headings" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H42.html">H42</A></TD>
+    <TD title="WCAG 1.0: AA">A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>40*</TD>
+    <TD>hx_01b</TD>
+    <TD class="left">There were found N heading elements 
+	Foram encontrados N elementos cabeçalho</TD>
+    <TD><A title="Organizing a page using headings" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G141.html">G141</A></TD>
+    <TD title="WCAG 1.0: AA">_aaa</TD>
+    <TD>10</TD>
+    <TD>0.1</TD>
+    <TD>0.9</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html">2.4.10</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>41*</TD>
+    <TD>hx_01c</TD>
+    <TD class="left">It does not exist the <CODE>&lt;h1&gt;</CODE> main heading of the page 
+	Não existe o cabeçalho principal <CODE>&lt;h1&gt;</CODE>  
+           da página</TD>
+    <TD><A title="Organizing a page using headings" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G141.html">G141</A></TD>
+    <TD title="WCAG 1.0: aa">_aaa</TD>
+    <TD>4</TD>
+    <TD>0.1</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html">2.4.10</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>42*</TD>
+    <TD>hx_02</TD>
+    <TD class="left">There were found N headings which content is only an image without alt text 
+	Foram encontrados N cabeçalhos cujo conteúdo é apenas uma 
+            imagem sem legenda</TD>
+    <TD><A title="Providing descriptive headings" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G130.html">G130</A></TD>
+    <TD title="WCAG 1.0: AA">AA</TD>
+    <TD>3</TD>
+    <TD>0.5</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html">2.4.6</A>&nbsp;(AA) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>43*</TD>
+    <TD>hx_03</TD>
+    <TD class="left">There were found N cases in which the headings do not respect the hierarchical chain
+	Foram encontrados N casos em que os cabeçalhos não       
+      respeitam a cadeia hierárquica</TD>
+    <TD><A title="Organizing a page using headings" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G141.html">G141</A></TD>
+    <TD title="WCAG 1.0: AA">AAA</TD>
+    <TD>3</TD>
+    <TD>0.1</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html">2.4.10</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR>
+    <TD>44</TD>
+    <TD>id_01</TD>
+    <TD class="left">There were found N repeated values of the <CODE>id</CODE> attribute 
+	Foram encontrados N valores repetidos do atributo        
+      <CODE>id</CODE></TD>
+    <TD><A title="Failure of Success Criterion 4.1.1 due to duplicate values of type ID" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F77.html">F77</A></TD>
+    <TD>A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html">4.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>45*</TD>
+    <TD>iframe_01</TD>
+    <TD class="left">There were found N <CODE>&lt;iframe&gt;</CODE> elements without title
+	Foram encontrados N elementos <CODE>&lt;iframe&gt;</CODE> 
+            sem título</TD>
+    <TD><A title="Using the title attribute of the frame and iframe elements" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H64.html">H64</A></TD>
+    <TD title="WCAG 1.0: A">A</TD>
+    <TD>3</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html">2.4.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>46*</TD>
+    <TD>img_01a</TD>
+    <TD class="left">It was found that all images make use of the <CODE>alt</CODE> attribute
+	Constatou-se que todas as imagens fazem uso do atributo   
+           <CODE>alt</CODE></TD>
+    <TD><A title="Using alt attributes on img elements" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H37.html">H37</A></TD>
+    <TD title="WCAG 1.0: A">_a</TD>
+    <TD>10</TD>
+    <TD>0.8</TD>
+    <TD>0.9</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>47*</TD>
+    <TD>img_01b</TD>
+    <TD class="left">There were found N images that do not have alt text  
+	Foram encontradas N imagens que não têm legenda</TD>
+    <TD><A title="Failure of Success Criterion 1.1.1 due to omitting the alt attribute or text alternative on img elements, area elements, and input elements of type "image"" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F65.html" 
+      imagem""="">F65</A></TD>
+    <TD title="WCAG 1.0: A">A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>48</TD>
+    <TD>img_02</TD>
+    <TD class="left">There were found N images in which the alt text is an empty space 
+	Foram encontradas N imagens em que a legenda é um espaço  
+           vazio</TD>
+    <TD><A title="Using CSS to include decorative images" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/C9.html">C9</A></TD>
+    <TD>_a</TD>
+    <TD>8</TD>
+    <TD>0.8</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>49*</TD>
+    <TD>img_03</TD>
+    <TD class="left">There were found N images with an alt text that does not suit as alternative equivalent 
+	Foram encontradas N imagens com uma legenda que não serve 
+            de equivalente alternativo</TD>
+    <TD><A title="Failure of Success Criterion 1.1.1 and 1.2.1 due to using text alternatives that are not alternatives (e.g., filenames or placeholder text)" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F30.html">F30</A></TD>
+    <TD title="WCAG 1.0: A">A</TD>
+    <TD>3</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/media-equiv-av-only-alt.html">1.2.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>50</TD>
+    <TD>img_04</TD>
+    <TD class="left">There were found N images in which the <CODE>alt</CODE> has more than 100 characters
+	Foram encontradas N imagens em que o <CODE>alt</CODE> tem 
+            mais de 100 caracteres</TD>
+    <TD><A title="Using longdesc" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H45.html">H45</A></TD>
+    <TD>_a</TD>
+    <TD>5</TD>
+    <TD>0.8</TD>
+    <TD>0.9</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>51*</TD>
+    <TD>inp_img_01a</TD>
+    <TD class="left">It was found that all graphical buttons have alt text 
+	Constatou-se que todos os botões gráficos têm uma     
+      legenda</TD>
+    <TD><A title="Using alt attributes on images used as submit buttons" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H36.html">H36</A></TD>
+    <TD title="WCAG 1.0: A">_a</TD>
+    <TD>10</TD>
+    <TD>0.8</TD>
+    <TD>0.9</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>52*</TD>
+    <TD>inp_img_01b</TD>
+    <TD class="left">There were located N graphical buttons without alt text
+	Foram localizados N botões gráficos sem legenda</TD>
+    <TD><A title="Failure of Success Criterion 1.1.1 due to omitting the alt attribute or text alternative on img elements, area elements, and input elements of type "image"" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F65.html" 
+      imagem""="">F65</A></TD>
+    <TD title="WCAG 1.0: A">A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>53</TD>
+    <TD>input_01</TD>
+    <TD class="left">There were identified N form controls without associated labels 
+	and without the <CODE>title</CODE> attribute
+	Foram identificados N controlos de formulário sem       
+      etiquetas associadas e sem o atributo <CODE>title</CODE></TD>
+    <TD><A title="Using the title attribute to identify form controls when the label element cannot be used" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H65.html">H65</A></TD>
+    <TD>A</TD>
+    <TD>3</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html">3.3.2</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>54*</TD>
+    <TD>input_02</TD>
+    <TD class="left">There were found N form controls without the <CODE>&lt;label&gt;</CODE> associated
+	Foram encontrados N controlos de formulário sem        
+      <CODE>&lt;label&gt;</CODE> associada</TD>
+    <TD><A title="Using label elements to associate text labels with form controls" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H44.html">H44</A></TD>
+    <TD title="WCAG 1.0: AA">_a</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>0.8</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html">3.3.2</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>55*</TD>
+    <TD>input_02b</TD>
+    <TD class="left">It was found that every form controls have an associated label 
+	Constatou-se que todos os controlos de formulário têm uma 
+            etiqueta associada</TD>
+    <TD><A title="Using label elements to associate text labels with form controls" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H44.html">H44</A></TD>
+    <TD title="WCAG 1.0: AA">_a</TD>
+    <TD>10</TD>
+    <TD>0.9</TD>
+    <TD>0.7</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html">3.3.2</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>56</TD>
+    <TD>input_03</TD>
+    <TD class="left">There were found N <CODE>&lt;input&gt;</CODE> with <CODE>alt</CODE> attribute that are not send graphical buttons
+	Foram encontrados N <CODE>&lt;input&gt;</CODE> com o      
+       atributo <CODE>alt</CODE> que não são botões gráficos de envio</TD>
+    <TD><A title="Using alt attributes on images used as submit buttons" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H36.html">H36</A></TD>
+    <TD>_a</TD>
+    <TD>5</TD>
+    <TD>0.8</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>57</TD>
+    <TD>justif_txt_01</TD>
+    <TD class="left">There were found N cases in which it is used justified text 
+	Foram encontrados N casos em que se usa texto     
+      justificado</TD>
+    <TD><A title="Failure of Success Criterion 1.4.8 due to using text that is justified (aligned to both the left and the right margins)" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F88.html">F88</A></TD>
+    <TD>AAA</TD>
+    <TD>3</TD>
+    <TD>0.1</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html">1.4.8</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR>
+    <TD>58</TD>
+    <TD>justif_txt_02</TD>
+    <TD class="left">There were found N cases in which the text is justified via CSS
+	Foram identificados N casos em que se faz justificação de 
+            texto via CSS</TD>
+    <TD><A title=" Specifying alignment either to the left OR right in CSS" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/C19.html">C19</A></TD>
+    <TD>AAA</TD>
+    <TD>3</TD>
+    <TD>0.1</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html">1.4.8</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>59*</TD>
+    <TD>label_01</TD>
+    <TD class="left">There were identified N <CODE>&lt;label&gt;</CODE> without the       
+       <CODE>for</CODE> attribute 
+	Foram identificadas N <CODE>&lt;label&gt;</CODE> sem      
+       atributo <CODE>for</CODE></TD>
+    <TD><A title="Failure of Success Criterion 4.1.2 due to a user interface control not having a programmatically determined name" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F68.html">F68</A></TD>
+    <TD title="WCAG 1.0: AA">A</TD>
+    <TD>3</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>60</TD>
+    <TD>label_02</TD>
+    <TD class="left">There were located N <CODE>&lt;label&gt;</CODE> incorrectly placed 
+	Foram localizadas N <CODE>&lt;label&gt;</CODE>s       
+      incorrectamente posicionadas</TD>
+    <TD><A title="Positioning labels to maximize predictability of relationships" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G162.html">G162</A></TD>
+    <TD>A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html">3.3.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>61</TD>
+    <TD>label_03</TD>
+    <TD class="left">There were found N <CODE>&lt;label&gt;</CODE> elements without content 
+	Foram encontradas N elementos <CODE>&lt;label&gt;</CODE>  
+           sem conteúdo</TD>
+    <TD><A title="Failure of Success Criterion 4.1.2 due to a user interface control not having a programmatically determined name" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F68.html">F68</A></TD>
+    <TD>A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>62*</TD>
+    <TD>lang_01</TD>
+    <TD class="left">It was found that the main language of the page is identified with the "N" code
+	Constatou-se que se identifica o idioma principal da      
+       página com o código "N"</TD>
+    <TD><A title="Using language attributes on the html element" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H57.html">H57</A></TD>
+    <TD title="WCAG 1.0: AAA">A</TD>
+    <TD>10</TD>
+    <TD>0.9</TD>
+    <TD>0.9</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html">3.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>63*</TD>
+    <TD>lang_02</TD>
+    <TD class="left">It was found that the "N" code is incorrect
+	Constatou-se que o código "N" está incorrecto</TD>
+    <TD><A title="Using language attributes on the html element" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H57.html">H57</A></TD>
+    <TD title="WCAG 1.0: AAA">A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html">3.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>64*</TD>
+    <TD>lang_03</TD>
+    <TD class="left">It was found that the N attribute is missing
+	Constatou-se que o atributo N se encontra em falta</TD>
+    <TD><A title="Using language attributes on the html element" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H57.html">H57</A></TD>
+    <TD title="WCAG 1.0: AAA">A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html">3.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>65*</TD>
+    <TD>lang_04</TD>
+    <TD class="left">It was found that the <CODE>lang</CODE> and/or       
+        <CODE>xml:lang</CODE> are being used in a incorrect way
+	Constatou-se que os atributos <CODE>lang</CODE> e/ou      
+        <CODE>xml:lang</CODE> estão a ser utilizados de forma incorrecta</TD>
+    <TD><A title="Using language attributes on the html element" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H57.html">H57</A></TD>
+    <TD title="WCAG 1.0: AAA">A</TD>
+    <TD>4</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html">3.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>66*</TD>
+    <TD>lang_05</TD>
+    <TD class="left">The kind of document does not allow the use of the         
+      <CODE>N</CODE> attribute
+	O tipo de documento não permite o uso do atributo        
+      <CODE>N</CODE></TD>
+    <TD><A title="Using language attributes on the html element" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H57.html">H57</A></TD>
+    <TD title="WCAG 1.0: AAA">A</TD>
+    <TD>5</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html">3.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>67*</TD>
+    <TD>layout_01a</TD>
+    <TD class="left">It was found that there are not elements used to control the visual presentation 
+	Constatou-se que não há elementos a serem usados para     
+        controlo visual da apresentação</TD>
+    <TD><A title="Using semantic elements to mark up structure" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G115.html">G115</A></TD>
+    <TD title="WCAG 1.0: AA">_a</TD>
+    <TD>10</TD>
+    <TD>0.8</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>68*</TD>
+    <TD>layout_01b</TD>
+    <TD class="left">There were found N elements used to control the visual presentation
+	Foram encontrados N elementos usados para controlar a     
+        apresentação visual</TD>
+    <TD><A title="Using semantic elements to mark up structure" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G115.html">G115</A></TD>
+    <TD title="WCAG 1.0: AA">A</TD>
+    <TD>5</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD>2</TD>
+    <TD>2</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>69*</TD>
+    <TD>layout_02a</TD>
+    <TD class="left">It was found that there are not attributes to control the visual presentation
+	Constatou-se que não há atributos a controlar a       
+      apresentação visual</TD>
+    <TD><A title="Separating information and structure from presentation to enable different presentations" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G140.html">G140</A></TD>
+    <TD title="WCAG 1.0: AA">_a</TD>
+    <TD>10</TD>
+    <TD>0.8</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html">1.4.5</A>&nbsp;(AA) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-images.html">1.4.9</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>70*</TD>
+    <TD>layout_02b</TD>
+    <TD class="left">There were found N attributes to control the visual presentation 
+	Foram localizados N atributos para controlar a       
+      apresentação visual</TD>
+    <TD><A title="Separating information and structure from presentation to enable different presentations" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G140.html">G140</A></TD>
+    <TD title="WCAG 1.0: AA">A</TD>
+    <TD>5</TD>
+    <TD>0.9</TD>
+    <TD>0.9</TD>
+    <TD>3</TD>
+    <TD>3</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html">1.4.5</A>&nbsp;(AA) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-images.html">1.4.9</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR>
+    <TD>71</TD>
+    <TD>layout_03</TD>
+    <TD class="left">Foram identificados N casos em que se utilizam unidades   
+          de medida absoluta na definição da largura dos elementos</TD>
+    <TD><A title="Using liquid layout" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G146.html">G146</A></TD>
+    <TD>_aa</TD>
+    <TD>5</TD>
+    <TD>0.5</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html">1.4.4</A>&nbsp;(AA) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html">1.4.8</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>72*</TD>
+    <TD>link_01</TD>
+    <TD class="left">There were located N elements <CODE>&lt;link&gt;</CODE> to navigate
+	Foram localizados N elementos <CODE>&lt;link&gt;</CODE>   
+          para navegação</TD>
+    <TD><A title="Using the link element and navigation tools" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H59.html">H59</A></TD>
+    <TD title="WCAG 1.0: aaa">_aa</TD>
+    <TD>10</TD>
+    <TD>0.4</TD>
+    <TD>0.9</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html">2.4.5</A>&nbsp;(AA) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-location.html">2.4.8</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>73*</TD>
+    <TD>list_01</TD>
+    <TD class="left">There were located N list items out of the list structure
+	Foram localizados N itens de lista fora da estrutura de   
+          listas</TD>
+    <TD><A title="Using ol, ul and dl for lists or groups of links" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H48.html">H48</A></TD>
+    <TD title="WCAG 1.0: AA">A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD>3</TD>
+    <TD>3</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>74</TD>
+    <TD>long_01</TD>
+    <TD class="left">There were located N <CODE>longdesc</CODE> attributes with the wrong value
+	Foram localizados N atributos <CODE>longdesc</CODE> com   
+          um valor incorrecto</TD>
+    <TD><A title="Using longdesc" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H45.html">H45</A></TD>
+    <TD>A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>75*</TD>
+    <TD>marquee_01</TD>
+    <TD class="left">It was found that the <CODE>&lt;marquee&gt;</CODE> is used  
+	Constatou-se que se faz uso do elemento      
+      <CODE>&lt;marquee&gt;</CODE></TD>
+    <TD><A title="Failure of Success Criterion 2.2.2 due to including scrolling content where movement is not essential to the activity without also including a mechanism to pause and restart the content" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F16.html">F16</A></TD>
+    <TD title="WCAG 1.0: aa">A</TD>
+    <TD>1</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/time-limits-pause.html">2.2.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>76*</TD>
+    <TD>meta_01</TD>
+    <TD class="left">It was found that the page is updated after a certain time using the <CODE>meta http-equiv</CODE> element
+	Constatou-se que se actualiza a página ao fim de algum    
+         tempo recorrendo ao elemento <CODE>meta http-equiv</CODE></TD>
+    <TD><A title="Failure of Success Criterion 2.2.1, 2.2.4, and 3.2.5 due to using meta refresh to reload the page" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F41.html">F41</A></TD>
+    <TD title="WCAG 1.0: aa">A</TD>
+    <TD>3</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html">2.2.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/time-limits-postponed.html">2.2.4</A>&nbsp;(AAA) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/consistent-behavior-no-extreme-changes-context.html">3.2.5</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>77*</TD>
+    <TD>meta_02</TD>
+    <TD class="left">It was found that the page is redirected after a certain time using the <CODE>meta http-equiv</CODE> element
+	Constatou-se que se redirecciona a página ao fim de algum 
+            tempo recorrendo ao elemento <CODE>meta http-equiv</CODE></TD>
+    <TD><A title="Failure of Success Criterion 2.2.1 and 2.2.4 due to using meta redirect with a time limit" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F40.html">F40</A></TD>
+    <TD title="WCAG 1.0: aa">A</TD>
+    <TD>3</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html">2.2.1</A>&nbsp;(A) 
+             <A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/time-limits-postponed.html">2.2.4</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR>
+    <TD>78</TD>
+    <TD>object_01</TD>
+    <TD class="left">There were located N <CODE>&lt;object&gt;</CODE> elements without alternative content
+	Foram localizados N elemntos <CODE>&lt;object&gt;</CODE>  
+           sem conteúdo alternativo</TD>
+    <TD><A title="Fornecer alternativas em texto e em formato não textual para object" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H27.html">H27</A></TD>
+    <TD>A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>79</TD>
+    <TD>scope_01</TD>
+    <TD class="left">There were located N cases in which the <CODE>scope</CODE> attributes have invalid values
+	Foram localizados N casos em que os atributos        
+      <CODE>scope</CODE> têm valores inválidos</TD>
+    <TD><A title="Using the scope attribute to associate header cells and data cells in data tables" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H63.html">H63</A></TD>
+    <TD>A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>80*</TD>
+    <TD>table_01</TD>
+    <TD class="left">There were found N tables without heading cells but with <CODE>&lt;caption&gt;</CODE> and/or <CODE>summary</CODE>
+	Foram encontradas N tabelas sem células de cabeçalho mas  
+           com <CODE>&lt;caption&gt;</CODE> e/ou <CODE>summary</CODE></TD>
+    <TD><A title="Failure of Success Criterion 1.3.1 due to using th elements, caption elements, or non-empty summary attributes in layout tables" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F46.html">F46</A></TD>
+    <TD title="WCAG 1.0: AAA">A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>81*</TD>
+    <TD>table_02</TD>
+    <TD class="left">There were located N data tables without <CODE>&lt;caption&gt;</CODE> or <CODE>summary</CODE>
+	Foram localizadas N tabelas de dados sem        
+      <CODE>&lt;caption&gt;</CODE> ou <CODE>summary</CODE></TD>
+    <TD><A title="Using caption elements to associate data table captions with data tables" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H39.html">H39</A></TD>
+    <TD title="WCAG 1.0: AAA">A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>82*</TD>
+    <TD>table_03</TD>
+    <TD class="left">There were located N tables in which the marked text in 
+	Foram localizados N tabelas em que o texto afixado em <CODE>&lt;caption&gt;</CODE> and <CODE>summary</CODE> are the same   
+         <CODE>&lt;caption&gt;</CODE> e <CODE>summary</CODE> é o mesmo</TD>
+    <TD><A title="Using the summary attribute of the table element to give an overview of data tables" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H73.html">H73</A></TD>
+    <TD title="WCAG 1.0: AAA">A</TD>
+    <TD>4</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>83</TD>
+    <TD>table_04</TD>
+    <TD class="left">There were found N tables with chained tables
+	Foram encontradas N tabelas com tabelas encadeadas</TD>
+    <TD><A title="Failure of Success Criterion 1.3.2 due to using an HTML layout table that does not make sense when linearized" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F49.html">F49</A></TD>
+    <TD>_a</TD>
+    <TD>3</TD>
+    <TD>0.8</TD>
+    <TD>0.9</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html">1.3.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>84*</TD>
+    <TD>table_05a</TD>
+    <TD class="left">There were found N tables without heading cells 
+	Foram encontradas N tabelas sem células cabeçalho</TD>
+    <TD><A title="Using table markup to present tabular information" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H51.html">H51</A></TD>
+    <TD title="WCAG 1.0: AA">_a</TD>
+    <TD>4</TD>
+    <TD>0.8</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>85</TD>
+    <TD>table_06</TD>
+    <TD class="left">There were found N complex data tables with one or more data cells without the <CODE>headers</CODE> attribute
+	Foram encontradas N tabelas de dados complexos com uma ou 
+            mais células de dados sem o atributo <CODE>headers</CODE></TD>
+    <TD><A title="Using id and headers attributes to associate data cells with header cells in data tables" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H43.html">H43</A></TD>
+    <TD>_a</TD>
+    <TD>4</TD>
+    <TD>0.8</TD>
+    <TD>0.8</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>86*</TD>
+    <TD>title_01</TD>
+    <TD class="left">The page has N <CODE>&lt;title&gt;</CODE> elements
+	A página tem N elementos <CODE>&lt;title&gt;</CODE></TD>
+    <TD><A title="Providing a title using the title element" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H25.html">H25</A></TD>
+    <TD title="WCAG 1.0: AA">A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html">2.4.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>87*</TD>
+    <TD>title_02</TD>
+    <TD class="left">It was found that the page has not the  <CODE>&lt;title&gt;</CODE> element  
+	Constatou-se que a página não tem o elemento        
+      <CODE>&lt;title&gt;</CODE></TD>
+    <TD><A title="Providing a title using the title element" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H25.html">H25</A></TD>
+    <TD title="WCAG 1.0: AA">A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html">2.4.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>88*</TD>
+    <TD>title_03</TD>
+    <TD class="left">It was found that the element <CODE>&lt;title&gt;</CODE> is empty
+	Constatou-se que o elemento <CODE>&lt;title&gt;</CODE>    
+         está vazio</TD>
+    <TD><A title="Failure of Success Criterion 2.4.2 due to the title of a Web page not identifying the contents" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F25.html">F25</A></TD>
+    <TD title="WCAG 1.0: AA">A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html">2.4.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>89</TD>
+    <TD>title_04</TD>
+    <TD class="left">The page title has N characters
+	O título da página contém N caracteres</TD>
+    <TD><A title="Providing descriptive titles for Web pages" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G88.html">G88</A></TD>
+    <TD>_a</TD>
+    <TD>10</TD>
+    <TD>0.8</TD>
+    <TD>0.9</TD>
+    <TD>64</TD>
+    <TD>10</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html">2.4.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>90*</TD>
+    <TD>title_05</TD>
+    <TD class="left">Page title with  sequences of non-textual characters: N
+	Título da página com sequências de caracteres não       
+      textuais: N</TD>
+    <TD><A title="Providing descriptive titles for Web pages" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G88.html">G88</A></TD>
+    <TD title="WCAG 1.0: AA">_a</TD>
+    <TD>4</TD>
+    <TD>0.8</TD>
+    <TD>0.9</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html">2.4.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>91*</TD>
+    <TD>title_06</TD>
+    <TD class="left">It was found that the page has a <CODE>&lt;title&gt;</CODE> element
+	Constatou-se que a página tem um elemento        
+      <CODE>&lt;title&gt;</CODE></TD>
+    <TD><A title="Providing a title using the title element" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/H25.html">H25</A></TD>
+    <TD title="WCAG 1.0: AA">_a</TD>
+    <TD>10</TD>
+    <TD>0.8</TD>
+    <TD>0.9</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html">2.4.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>92</TD>
+    <TD>title_07</TD>
+    <TD class="left">It was found that this page has an equal <CODE>&lt;title&gt;</CODE> as other pages of the website
+	Constatou-se que esta página tem um        
+      <CODE>&lt;title&gt;</CODE> igual ao de outras páginas do sítio</TD>
+    <TD><A title="Failure of Success Criterion 2.4.2 due to the title of a Web page not identifying the contents" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F25.html">F25</A></TD>
+    <TD>A</TD>
+    <TD>4</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html">2.4.2</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>93*</TD>
+    <TD>values_01a</TD>
+    <TD class="left">It was found that in N cases, are used absolute measurement units 
+	Constatou-se que em N casos, se faz uso de unidades de    
+         medida absolutas</TD>
+    <TD><A title="Using liquid layout" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G146.html">G146</A></TD>
+    <TD title="WCAG 1.0: AA">AA</TD>
+    <TD>4</TD>
+    <TD>0.4</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html">1.4.4</A>&nbsp;(AA) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>94*</TD>
+    <TD>values_01b</TD>
+    <TD class="left">It was found that all attributes are expressed in relative measurement units 
+	Constatou-se que todos os atributos estão expressos em    
+         unidades de medida relativas</TD>
+    <TD><A title="Using liquid layout" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G146.html">G146</A></TD>
+    <TD title="WCAG 1.0: AA">_aa</TD>
+    <TD>10</TD>
+    <TD>0.4</TD>
+    <TD>0.9</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html">1.4.4</A>&nbsp;(AA) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>95*</TD>
+    <TD>values_02a</TD>
+    <TD class="left">It was found that N cases, the measurement units in the CSS are expressed in absolute values
+	Constatou-se que em N casos, as unidades de medida       
+      existentes na CSS estão expressas em valores absolutos</TD>
+    <TD><A title="Using percentage values in CSS for container sizes" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/C24.html">C24</A></TD>
+    <TD title="WCAG 1.0: AA">AAA</TD>
+    <TD>3</TD>
+    <TD>0.1</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD>1</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html">1.4.8</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>96*</TD>
+    <TD>values_02b</TD>
+    <TD class="left">It was found that all measurement units in the CSS are expressed in relative values 
+	Constatou-se que todas as unidades de medida existentes   
+          na CSS estão expressas em valores relativos</TD>
+    <TD><A title="Using percentage values in CSS for container sizes" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/C24.html">C24</A></TD>
+    <TD title="WCAG 1.0: AA">_aaa</TD>
+    <TD>10</TD>
+    <TD>0.1</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html">1.4.8</A>&nbsp;(AAA) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>97*</TD>
+    <TD>w3c_validator_01a</TD>
+    <TD class="left">It does not exist validation errors in markup language 
+	Não existem erros de validação na linguagem de 
+     marcação</TD>
+    <TD><A title="Validating Web pages" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G134.html">G134</A></TD>
+    <TD title="WCAG 1.0: AA">A</TD>
+    <TD>10</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html">4.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR class="rowconf">
+    <TD>98*</TD>
+    <TD>w3c_validator_01b</TD>
+    <TD class="left">There were found N errors of validation in the markup language 
+	Foram encontrados N erros de validação na linguagem de    
+         marcação</TD>
+    <TD><A title="Validating Web pages" href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/G134.html">G134</A></TD>
+    <TD title="WCAG 1.0: AA">A</TD>
+    <TD>5</TD>
+    <TD>0.9</TD>
+    <TD>1</TD>
+    <TD>10</TD>
+    <TD>10</TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html">4.1.1</A>&nbsp;(A) 
+           </TD></TR>
+  <TR>
+    <TD>99</TD>
+    <TD>win_01</TD>
+    <TD class="left">It was found when loading this page, a new window opens, immediately, over the contents 
+	Constatou-se que ao carregar esta página, abre-se, de     
+        imediato, uma nova janela por cima dos conteúdos</TD>
+    <TD><A title="Failure of Success Criterion 3.2.1 and 3.2.5 due to opening a new window as soon as a new page is loaded" 
+      href="http://www.acessibilidade.gov.pt/w3/TR/WCAG20-TECHS/F52.html">F52</A></TD>
+    <TD>A</TD>
+    <TD>3</TD>
+    <TD>0.9</TD>
+    <TD>0.9</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD class="left"><A href="http://www.acessibilidade.gov.pt/w3/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html">3.2.1</A>&nbsp;(A) 
+           </TD></TR></TBODY></TABLE></DIV></BODY></HTML>
